@@ -3,16 +3,18 @@ TriMax
 
 TriMax algorithm for computing maximal biclusters of similar values
 
+Requirements
+==========
+* Boost C++ library
+
 Author
 ======
 Mehdi Kaytoue - LIRIS / INSA de Lyon
 
 
-
-
 Reference 
 ========
-Biclustering meets triadic concept analysis.
+**Biclustering meets triadic concept analysis.**
 M. Kaytoue, S.O. Kuznetsov, J. Macko, A. Napoli. 
 Annals of Mathematics and Artificial Intelligence ():1-25, 
 Springer Netherlands, ISSN 1012-2443.   2013.
