@@ -5,14 +5,14 @@ TriMax algorithm for computing maximal biclusters of similar values
 
 Requirements
 ----------
-* Boost C++ library
+* Boost C++ library (tested on 1.54.0)
 
 Compiling and executing
 ---------
 
 * compile with 
 
-> g++ -I /usr/local/boost_1_54_0/ *.cpp -o trimax
+> g++ -03 -I /usr/local/boost_1_54_0/ *.cpp -o trimax
 
 * Exec with 
 
