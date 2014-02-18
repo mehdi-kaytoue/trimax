@@ -7,6 +7,16 @@ Requirements
 ----------
 * Boost C++ library
 
+Compiling and executing
+---------
+
+* compile with 
+> g++ -I /usr/local/boost_1_54_0/ *.cpp -o trimax
+
+> Exec with 
+> ./trimax datafile theta min_objects min_attributes max_objects max_attributes
+> e.g. ./trimax sample.txt 2 0 0 4 5
+
 Author
 ----------
 Mehdi Kaytoue - LIRIS / INSA de Lyon
