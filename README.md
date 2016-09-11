@@ -12,7 +12,7 @@ Compiling and executing
 
 * compile with 
 
-> g++ -03 -I /usr/local/boost_1_54_0/ *.cpp -o trimax
+> g++ -O3 -I /usr/local/boost_1_54_0/ *.cpp -o trimax
 
 * Exec with 
 
