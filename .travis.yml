@@ -4,10 +4,10 @@ compiler:
   - clang
 
 script: 
-  - g++ -03 -I /usr/local/boost_1_54_0/ *.cpp -o trimax
+  - g++ -03 -I /usr/local/boost_1_55 *.cpp -o trimax
   
 addons:
   apt:
     packages:
     - g++-multilib
-    - libboost1.54.0
+    - libboost1.55
