@@ -14,3 +14,6 @@ addons:
   apt:
     packages:
     - g++-multilib
+    - libboost1.54.0
+    - libboost1.54.0-all
+    - libboost1.54.0-all-dev
